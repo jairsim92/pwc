@@ -1,0 +1,17 @@
+.dropdown1 {
+    width: 100%;
+    height: 80px;
+    padding: 20px 30px;
+    background: rgb(0, 0, 0);    
+} 
+
+.dropdown1 .nav-link {
+    margin-left: 20px;    
+    /* margin-right: 40px; */
+    text-align:justify;
+    font-size: 14px;
+}
+
+
+
+
