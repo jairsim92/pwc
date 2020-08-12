@@ -18,11 +18,11 @@ body {
     /* margin: 20px 50px; */
     height: 60px;
     padding: 2px 30px;
-    background: rgb(16, 78, 212);
+    background: rgb(255, 255, 255);
 }
 
 /*#btn-nav {
-    display: none;    
+    display: none;
 }*/
 
 /* label #btn,
@@ -37,7 +37,7 @@ label #cancel {
 } */
 
 /* #check {
-    display: none;    
+    display: none;
 } */
 
 /* posicion logo*/
@@ -61,12 +61,12 @@ label #cancel {
     /* cursor mano sobre los link */
     cursor: pointer;
     background: rgb(0, 0, 0, 0.3);
-    
+
 }
 
 /* ubicacion navbar a la izquierda */
 .nav1 ul {
-    
+
     margin: -15px 15px;
     margin-left: 20px;
 }
@@ -101,7 +101,7 @@ nav li:hover {
 
     /* display: block; */
     /* espacio entre link */
-    /* padding: 13px 12px; */    
+    /* padding: 13px 12px; */
     /* text-decoration: none; */
 }
 
@@ -122,15 +122,56 @@ nav li:hover {
     width: 100%;
     height: 80px;
     padding: 20px 30px;
-    background: rgb(0, 0, 0);    
-} 
+    background: rgb(0, 0, 0);
+}
 
 .dropdown1 .nav2-link2 {
-    margin-left: 20px;    
+    margin-left: 20px;
     text-align:justify;
     font-size: 14px;
 }
 
+.footer-bottom{
+    font-family: Helvetica Neue;
+    height: 60px;
+    width: 100%;
+	padding: 17px 0px;
+    text-align: center;
+	color: #fff;
+	background: rgb(30, 30, 30);
+}
+/* barra -footer */
+#nav-footer a {
+    color: #404041 !important;
+    border-top: 4px solid #939598;
+    text-decoration: none;
+    font-family: Georgia,"Times New Roman";
+    font-weight: normal;
+    margin-left: 12px;
+    width: 112px;
+    display: block;
+    padding: 20px;
+    margin-left: 90px;
+    padding-right: 180px;
+    /* margin: 0 15px; */
+}
+
+#nav-footer a:hover {
+        color: #eb8c00 !important;
+    }
+
+#nav-footer:hover a {
+    border-top: 4px solid #eb8c00;
+}
+
+.parfooter p {
+    margin-left:90px!important; 
+    margin-right:90px!important; 
+    line-height: initial;
+    color: rgb(133, 133, 133);
+}
+
+/* -.--------- */
 
 @media (max-width:767px){
     .nav1 ul li a {
@@ -139,7 +180,7 @@ nav li:hover {
 }
 
 @media (max-width:700px){
-    .nav1 { 
+    .nav1 {
         width: 0;
         height: 0;
         margin: 0;
@@ -147,13 +188,13 @@ nav li:hover {
         border: 0;
         line-height: 0; /* sólo en caso de elementos inline-block */
         overflow: hidden;
-    }    
+    }
 }
 
 /* @media (max-width:580px){
     .img-fluid {
         width: 50px;
-        
+
         top: 8px;
         left: 0.5%;
     }
